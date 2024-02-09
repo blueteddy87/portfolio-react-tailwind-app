@@ -11,7 +11,12 @@ const Home = () => {
             <h2 className='text-2xl sm:text-1xl font-bold text-gray-400'>nr albumu: 46818</h2>
             <p className='py-4 max-w-[700px] text-gray-500'>praca na zaliczenie przedmiotu projekt portfolio</p>
         <div>
-            <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:border-red-800 hover:bg-red-800'>View work <HiArrowNarrowRight className='ml-3'></HiArrowNarrowRight></button>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:border-red-800 hover:bg-red-800'>
+              View work 
+              <span className='group-hover:rotate-90 duration-300'>
+              <HiArrowNarrowRight className='ml-3 ' />
+             </span>
+            </button>
         </div>
         </div>
     </div>
