@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkImg from '../assets/norway.png'
 import realEstate from '../assets/weather.png'
+import blazor from '../assets/blazor_pr.png'
 
 
 const Work = () => {
@@ -26,14 +27,14 @@ const Work = () => {
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                React JS App
 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://weatherareact.firebaseapp.com/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/blueteddy87/weather-app.git">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -47,11 +48,11 @@ const Work = () => {
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                HTML CSS App
 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://reactzal.firebaseapp.com/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href="/">
@@ -61,21 +62,21 @@ const Work = () => {
             </div>
           </div>
           <div 
-          style={{ backgroundImage: `url(${realEstate})` }}
+          style={{ backgroundImage: `url(${blazor})` }}
           className='shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Blazor App
 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://brave-sand-06168b003.2.azurestaticapps.net/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/blueteddy87/Blazor.git">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
