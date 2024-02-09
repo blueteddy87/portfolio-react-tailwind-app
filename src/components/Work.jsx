@@ -19,7 +19,7 @@ const Work = () => {
          
         {/* grid item */}
           <div 
-          style={{ backgroundImage: `url(${WorkImg})` }}
+          style={{ backgroundImage: `url(${realEstate})` }}
           className='shadow-lg shadow-gray-900 group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             
