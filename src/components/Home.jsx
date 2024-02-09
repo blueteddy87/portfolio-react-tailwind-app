@@ -1,0 +1,21 @@
+import React from 'react'
+import {HiArrowNarrowRight} from 'react-icons/hi'
+
+const Home = () => {
+  return (
+    <div name='home' className='w-full h-screen bg-[#36393B]'>
+        {/* Container */}
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <p className='text-red-800'>Hi, my name is</p>
+            <h1 className='text-4xl sm:text-7xl font-bold text-white'>Patrycja Świtalska</h1>
+            <h2 className='text-2xl sm:text-1xl font-bold text-gray-400'>nr albumu: 46818</h2>
+            <p className='py-4 max-w-[700px] text-gray-500'>praca na zaliczenie przedmiotu projekt portfolio</p>
+        <div>
+            <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:border-red-800 hover:bg-red-800'>View work <HiArrowNarrowRight className='ml-3'></HiArrowNarrowRight></button>
+        </div>
+        </div>
+    </div>
+  )
+}
+
+export default Home 
