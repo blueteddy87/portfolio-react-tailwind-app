@@ -23,6 +23,7 @@ const Navbar = () => {
         {/* menu */}
             <ul className='hidden md:flex'>
                 <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                <li><Link to="weather" smooth={true} duration={500}>Weather</Link></li>
                 <li><Link to="about" smooth={true} duration={500}>About</Link></li>
                 <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
                 <li><Link to="work" smooth={true} duration={500}>Work</Link></li>
@@ -37,6 +38,7 @@ const Navbar = () => {
         {/* mobile menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#36393B] flex flex-col justify-center items-center '} >
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="weather" smooth={true} duration={500}>Weather</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="work" smooth={true} duration={500}>Work</Link></li>
@@ -54,7 +56,7 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-700'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://github.com/blueteddy87/">
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
