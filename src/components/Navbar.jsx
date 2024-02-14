@@ -3,8 +3,7 @@ import {
     FaBars, 
     FaTimes,
     FaGithub,
-    FaLinkedin,
-    FaFacebook
+    FaLinkedin
 } from 'react-icons/fa'
 import {HiArrowNarrowRight, HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
